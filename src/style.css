@@ -1,1 +1,14 @@
-
+:root {
+  --brand-color-1: #e8e3de;
+  --brand-color-2: #faf9f8;
+  --brand-font-family: "Cambo", serif;
+}
+body {
+  background: #faf9f8;
+}
+.container {
+  font-family: var(--brand-font-family);
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
