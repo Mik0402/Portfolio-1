@@ -13,22 +13,22 @@ body {
   margin-top: 100px;
   padding: 0 250px;
 }
-img {
+.image-stack {
+  position: relative;
+  width: 300px;
+  height: 300px;
   margin-right: 50px;
 }
-.image-stack::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .image-stack-top {
-  float: right;
-  width: 75%;
+  position: absolute;
   z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 .image-stack-bottom {
-  float: left;
-  width: 66%;
-  margin-right: -100%;
-  position: relative;
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  left: -50px;
 }
