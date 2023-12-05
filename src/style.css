@@ -32,14 +32,42 @@ body {
   top: 50px;
   left: -50px;
 }
-@media (max-width: 576px) {
+.about {
+  text-align: center;
+}
+.about-title {
+  margin-top: 50px;
+  font-family: var(--brand-font-family);
+}
+.name {
+  font-family: var(--brand-font-family);
+}
+.location {
+  margin-bottom: 30px;
+  font-family: var(--brand-font-family);
+  font-size: 25px;
+}
+.about-desc {
+  background-color: var(--brand-color-1);
+  margin: 20px 200px;
+  padding: 20px;
+}
+.followMe {
+  font-size: 20px;
+  display: inline;
+}
+
+@media (max-width: 700px) {
   .container {
     text-align: center;
     padding: 0;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   #profile-pic {
     text-align: center;
     margin-bottom: 50px;
+  }
+  .about-desc {
+    margin: 0;
   }
 }
