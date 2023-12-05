@@ -56,17 +56,12 @@ p {
   font-size: 20px;
   display: inline;
 }
-#work-project {
-  background-color: #e8e3de;
-  margin: 10px;
-}
-.work-image {
-  max-width: 400px;
+#work-container {
+  max-width: 800px;
 }
 button {
   border-radius: 10px;
   background-color: var(--brand-color-2);
-  margin: 10px 5px;
 }
 @media (max-width: 700px) {
   .home-container {
