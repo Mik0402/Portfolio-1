@@ -65,6 +65,22 @@ button {
   border-radius: 10px;
   background-color: var(--brand-color-2);
 }
+.contact-container {
+  margin: 50px 400px;
+  background: var(--brand-color-1);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.contact-img {
+  margin-top: 20px;
+}
+.contact {
+  margin: 20px 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 @media (max-width: 700px) {
   .home-container {
     text-align: center;
