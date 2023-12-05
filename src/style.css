@@ -6,8 +6,13 @@
 body {
   background: #faf9f8;
 }
-.container {
+h1,
+h2,
+h3,
+p {
   font-family: var(--brand-font-family);
+}
+.container {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -35,28 +40,36 @@ body {
 .about {
   text-align: center;
 }
-.about-title {
+.title {
   margin-top: 50px;
-  font-family: var(--brand-font-family);
-}
-.name {
-  font-family: var(--brand-font-family);
 }
 .location {
   margin-bottom: 30px;
-  font-family: var(--brand-font-family);
   font-size: 25px;
 }
 .about-desc {
-  background-color: var(--brand-color-1);
   margin: 20px 200px;
   padding: 20px;
+  background-color: #e8e3de;
 }
 .followMe {
   font-size: 20px;
   display: inline;
 }
-
+.work {
+  text-align: center;
+}
+.work-container {
+  display: flex;
+  justify-content: space-around;
+}
+#work-project {
+  background-color: #e8e3de;
+  margin: 10px;
+}
+.work-image {
+  max-width: 400px;
+}
 @media (max-width: 700px) {
   .container {
     text-align: center;
