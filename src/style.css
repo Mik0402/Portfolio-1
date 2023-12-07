@@ -33,12 +33,19 @@ h4 {
   width: 100%;
   top: 0;
   left: 0;
+  margin-top: 25px;
 }
 .image-stack-bottom {
   position: absolute;
   width: 100%;
   top: 50px;
   left: -50px;
+  margin-top: 25px;
+}
+.view-work {
+  padding: 10px;
+  background-color: var(--brand-color-1);
+  border-radius: 5px;
 }
 .body {
   text-align: center;
@@ -92,7 +99,7 @@ footer .contact-box {
   background-color: var(--brand-color-1);
   padding: 30px 70px;
   border-radius: 10px;
-  margin: 0 350px;
+  margin: 100px 350px;
 }
 footer .contact-box p {
   margin: 0;
