@@ -62,6 +62,8 @@ h4 {
   padding: 20px;
   background-color: #e8e3de;
   border-radius: 5px;
+  text-align: left;
+  font-size: 20px;
 }
 .followMe {
   font-size: 20px;
