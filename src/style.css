@@ -47,6 +47,18 @@ h4 {
   background-color: var(--brand-color-1);
   border-radius: 5px;
 }
+.view-resume {
+  padding: 10px;
+  background-color: var(--brand-color-1);
+  border-radius: 5px;
+  font-size: 20px;
+}
+.view-project {
+  padding: 10px;
+  background-color: var(--brand-color-1);
+  border-radius: 5px;
+  font-size: 18px;
+}
 .body {
   text-align: center;
 }
@@ -65,13 +77,12 @@ h4 {
   text-align: left;
   font-size: 20px;
 }
-.followMe {
-  font-size: 20px;
-  display: inline;
-}
 #work-container {
   max-width: 1000px;
   margin-top: 50px;
+}
+#work-container .row {
+  margin-bottom: 40px;
 }
 button {
   border-radius: 10px;
@@ -92,6 +103,10 @@ button {
 a {
   text-decoration: none;
   color: black;
+}
+.sourceLinks {
+  font-style: bold;
+  text-decoration: underline;
 }
 footer {
   text-align: center;
